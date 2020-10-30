@@ -5,8 +5,8 @@
     <body>
         <h1>My Website</h1>
         <p>My name is Apibun Somsri. You can call me BK.</p>
-        <img src="dog.jpg" alt="dog">
-        <img src="dog meme.jpg" alt="dog meme">
+        <img src="dog.jpg">
+        <img src="dog meme.jpg">
         <br>
         <a href="https://onlearn.it.kmitl.ac.th/">This is a link</a>
         <h2>เรื่องตลก</h2>
