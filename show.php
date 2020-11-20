@@ -16,7 +16,7 @@ body {
 <body>
 <?php
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'workitf.mysql.database.azure.com', 'it63070184', '0627852594Bk', 'itflab', 3306);
+mysqli_real_connect($conn, 'tanadon.mysql.database.azure.com', 'tanadonparosin@tanadon', 'Nexus404', 'itflab', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
@@ -25,7 +25,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
 <center>
 <table class="table table-hover table-bordered table-center" style="width:800px">
-  <tr class="table-primary" >
+  <tr class="table-info" >
     <th>Name</th>
     <th>Comment</th>
     <th>Link</th>
